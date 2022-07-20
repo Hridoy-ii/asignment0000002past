@@ -22,9 +22,8 @@ main{
 Button style
 *****************/
 
-.button {
+button {
     padding: 16px 25px;
-    background: #DD0000;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -85,6 +84,7 @@ banner part style
 .banner-button {
     margin-top: 30px;
     margin-bottom: 94px;
+    background: #DD0000;
 }
 .banner-button a{
     text-decoration: none;
@@ -101,3 +101,69 @@ banner part style
 Blog part style
 *****************/
 
+
+.blog-section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+/* navigation part */
+
+.navigation-part {
+    background-color: black;
+    padding: 15px;
+    width: 312px;
+    height: 312px;
+}
+.navigations{}
+.navigation{}
+.nav-button{
+    color: black;
+    background-color: #fff;
+    padding: 10px 30px;
+}
+
+/* blog part */
+.blog-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+.blog-item{
+    border: 1px solid #1616162a;
+    border-radius: 5px;
+}
+.blog-img{}
+
+
+/* footer part */
+footer{
+    text-align: center;
+    background-color: #161616;
+    height: 444px;
+}
+footer h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding: 100px 100px 50px 100px;
+}
+hr{
+    border: 1px solid #fff;
+}
+.footer-menu {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(6, 1fr);
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.footer-menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
