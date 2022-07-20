@@ -87,11 +87,16 @@ banner part style
     margin-bottom: 94px;
     background: #DD0000;
 }
+.banner-button:hover a{
+    padding-left: 5px;
+    background-color: #a10000;
+}
 .banner-button a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
+    transition: .6s;
 }
 .banner-button .fa-chevron-right{
     margin-left: 10px;
@@ -151,6 +156,7 @@ Blog part style
     text-decoration: none;
     color: black;
 }
+
 
 .nav-button:focus {
     background-color: #DD0000;
