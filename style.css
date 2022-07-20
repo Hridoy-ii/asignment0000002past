@@ -206,7 +206,7 @@ footer h3 {
     padding: 100px 100px 50px 100px;
 }
 hr{
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-menu {
     display: grid;
@@ -221,4 +221,234 @@ hr{
     font-size: 16px;
     color: white;
     font-weight: 500;
+}
+.social-icon{
+}
+.social-icon a{
+    font-size: 20px;
+}
+
+
+
+/* responsive  for moble device*/
+@media only screen and (max-width: 600px){
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 85%;
+    }
+    .banner-img{
+        height: 398px;
+    }
+    .banner-title h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .banner-img img {
+        height: 340px;
+        margin-top: 5px;
+    }
+    .banner-article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-article{
+        font-size: 14px;
+    }
+    .navigation-part {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        background-color: white;
+        padding: 5px;
+        width: 210px;
+        height: 176px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        margin-bottom: 24px;
+    }
+    .navigations {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    .blog-sections {
+        display: flex;
+        justify-content: center;
+        margin: 130px 0;
+    }
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 85%;
+    }
+    .blog-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+    hr{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer h3 {
+        font-size: 22px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        padding: 50px 50px 25px 50px;
+    }    
+    .footer-menu {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        list-style: none;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    .footer-menu a {
+        text-decoration: none;
+        font-size: 12px;
+        color: rgb(180, 180, 180);
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .social-icon a {
+        font-size: 25px;
+        margin: 0 20px;
+    }
+    .social-icon :nth-child(1){
+        color: #4267B2;
+    }
+    .social-icon :nth-child(2){
+        color: #1DA1F2;
+    }
+    .social-icon :nth-child(3){
+        color: #0072b1;
+    }
+}
+
+/* responsive  for tablet device*/
+@media only screen and (min-width:600px) (max-width: 992px) {
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 85%;
+    }
+
+    .banner-img {
+        height: 398px;
+    }
+
+    .banner-title h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+        .banner-img img {
+            height: 734px;
+            margin-top: 5px;
+        }
+
+    .banner-article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-article {
+        font-size: 14px;
+    }
+
+    .navigation-part {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        background-color: white;
+        padding: 5px;
+        width: 210px;
+        height: 176px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        margin-bottom: 24px;
+    }
+
+    .navigations {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+
+    .blog-sections {
+        display: flex;
+        justify-content: center;
+        margin: 130px 0;
+    }
+
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 85%;
+    }
+
+        .blog-items {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 24px;
+        }
+
+    hr {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer h3 {
+        font-size: 22px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        padding: 50px 50px 25px 50px;
+    }
+
+    .footer-menu {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(6, 1fr);
+        list-style: none;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    .footer-menu a {
+        text-decoration: none;
+        font-size: 12px;
+        color: rgb(180, 180, 180);
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    /* .social-icon a {
+        font-size: 25px;
+        margin: 0 20px;
+    }
+
+    .social-icon :nth-child(1) {
+        color: #4267B2;
+    }
+
+    .social-icon :nth-child(2) {
+        color: #1DA1F2;
+    }
+
+    .social-icon :nth-child(3) {
+        color: #0072b1;
+    } */
 }
